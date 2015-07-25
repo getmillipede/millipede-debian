@@ -1,4 +1,3 @@
-sudo: false
 language: bash
-before_install: apt-get install python-stdeb
+before_install: sudo apt-get install python-stdeb
 script: bash create.sh
