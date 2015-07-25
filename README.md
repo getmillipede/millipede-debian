@@ -14,5 +14,5 @@ deb http://apt.millipede.io wheezy main
 deb http://apt.millipede.io jessie main
 
 # install & try
-$ sudo apt-get install python-millipde
+$ sudo apt-get install python-millipede
 $ millipede 42
