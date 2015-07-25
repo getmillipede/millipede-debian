@@ -7,6 +7,12 @@ then
     VERSION=${1}
 fi
 
+if [ ${VERSION} = 'test' ]
+then
+    echo OK
+    exit 0
+fi
+
 if [ -f millipede-${VERSION}.tar.gz ]
 then
     rm millipede-${VERSION}.tar.gz
