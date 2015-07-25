@@ -21,7 +21,7 @@ $ sudo vim /etc/apt/sources.list.d/millipede.list
  deb http://apt.millipede.io jessie main
  ```
 
-#### install & try
+### install & try
 ````sh
 $ sudo apt-get install python-millipede
 $ millipede 42
