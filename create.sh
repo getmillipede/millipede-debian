@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION='1.1'
+VERSION='2.0'
 
 if [ ${1} ]
 then
