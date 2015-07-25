@@ -2,6 +2,11 @@
 
 VERSION='1.0'
 
+if [ ${1} ]
+then
+    VERSION=${1}
+fi
+
 if [ -f millipede-${VERSION}.tar.gz ]
 then
     rm millipede-${VERSION}.tar.gz
