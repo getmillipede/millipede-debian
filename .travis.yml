@@ -2,5 +2,6 @@ sudo: false
 language: bash
 addons:
   apt:
-    packages: python-stdeb
+    packages:
+    - python-stdeb
 script: bash create.sh
