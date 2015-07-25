@@ -1,6 +1,12 @@
 millipede-deb
 ========================
 
+[![Build Status](https://travis-ci.org/getmillipede/millipede-deb.svg?branch=master)](https://travis-ci.org/getmillipede/millipede-deb)
+
+Print a beautiful millipede
+
+## Installation
+
 ### add the new gpg keyring
 ```sh
 $ sudo wget -O - http://apt.millipede.io/apt.millipede.io.gpg.key | \
@@ -26,3 +32,17 @@ $ sudo vim /etc/apt/sources.list.d/millipede.list
 $ sudo apt-get install python-millipede
 $ millipede 42
 ```
+
+## Development
+
+## Testing
+
+## Support
+
+* [Stack Overflow](http://stackoverflow.com/questions/tagged/millipede)
+* [Twitter](https://twitter.com/getmillipede)
+* [#getmillipede](http://webchat.freenode.net?channels=%23getmillipede&uio=d4) on Freenode
+
+## License
+
+MIT
