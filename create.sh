@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION='1.0'
+VERSION='1.1'
 
 if [ ${1} ]
 then
@@ -15,6 +15,5 @@ wget https://pypi.python.org/packages/source/m/millipede/millipede-${VERSION}.ta
 
 py2dsc millipede-${VERSION}.tar.gz
 cd deb_dist/millipede-${VERSION}
-python setup.py --command-packages=stdeb.command debianize
 debuild
 # EOF
