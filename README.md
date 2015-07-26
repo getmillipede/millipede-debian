@@ -1,7 +1,7 @@
 millipede-deb
 ========================
 
-[![Build Status](https://travis-ci.org/getmillipede/millipede-deb.svg?branch=master)](https://travis-ci.org/getmillipede/millipede-deb)
+[![Build Status](https://travis-ci.org/getmillipede/millipede-debian.svg?branch=master)](https://travis-ci.org/getmillipede/millipede-debian)
 
 Print a beautiful millipede
 
