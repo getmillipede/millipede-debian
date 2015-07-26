@@ -1,12 +1,3 @@
 sudo: false
 language: bash
-addons:
-  apt:
-    packages:
-    - debhelper
-    - dpkg-dev
-    - python-pip
-before_install:
-- pip install --upgrade pip
-- pip install stdeb
 script: bash create.sh test
