@@ -1,5 +1,4 @@
-millipede-deb
-========================
+# millipede-debian
 
 [![Build Status](https://travis-ci.org/getmillipede/millipede-debian.svg?branch=master)](https://travis-ci.org/getmillipede/millipede-debian)
 
